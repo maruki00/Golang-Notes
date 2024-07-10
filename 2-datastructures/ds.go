@@ -7,7 +7,7 @@ func main() {
 	var twoD [2][3]int
 
 	letters := []string{"a", "b", "c", "d"}
-	letters2 := []string{}
+	var letters2 []string
 
 	//Copy
 	copy(letters2, letters)
@@ -18,10 +18,5 @@ func main() {
 	//Delete Letter
 	letters = append(letters[:1], letters[2:]...)
 
-	var s []byte
-	s = make([]byte, 5, 5)
-	//OR
-	ss := make([]byte, 5)
-
-	fmt.Println(x, twoD, letters, s, ss, letters2)
+	fmt.Println(x, twoD, letters, letters2)
 }
