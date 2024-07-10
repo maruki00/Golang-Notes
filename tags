@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+function1	1-Basics/function.go	/^func function1() {$/;"	f
+function2	1-Basics/function.go	/^func function2() int {$/;"	f
+function3	1-Basics/function.go	/^func function3(a, b int) (int, int) {$/;"	f
+functionWithCallback	1-Basics/function.go	/^func functionWithCallback(callback func(int) int ) int {$/;"	f
+main	1-Basics/conditions.go	/^func main() {$/;"	f
+main	1-Basics/conditions.go	/^package main$/;"	p
+main	1-Basics/forEach.go	/^func main() {$/;"	f
+main	1-Basics/forEach.go	/^package main$/;"	p
+main	1-Basics/function.go	/^func main() {$/;"	f
+main	1-Basics/function.go	/^package main$/;"	p
+main	1-Basics/loops.go	/^func main() {$/;"	f
+main	1-Basics/loops.go	/^package main$/;"	p
+main	1-Basics/pointers.go	/^func main() {$/;"	f
+main	1-Basics/pointers.go	/^package main$/;"	p
+main	1-Basics/switch.go	/^func main() {$/;"	f
+main	1-Basics/switch.go	/^package main$/;"	p
+main	1-Basics/types.go	/^func main() {$/;"	f
+main	1-Basics/types.go	/^package main$/;"	p
+main	1-Basics/userInput.go	/^func main() {$/;"	f
+main	1-Basics/userInput.go	/^package main$/;"	p
+main	1-Basics/variables.go	/^func main() {$/;"	f
+main	1-Basics/variables.go	/^package main$/;"	p
+main	1-Basics/visibility.go	/^package main$/;"	p
