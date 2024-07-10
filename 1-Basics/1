@@ -17,7 +17,7 @@ func function3(a, b int) (int, int) {
 
 func functionWithCallback(callback func(int) int ) int {
 	return callback(1)
-}
+} 
 
 func main() {
 	fmt.Println("result : ", functionWithCallback(func(a int) int {
