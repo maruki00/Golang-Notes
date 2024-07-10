@@ -1,4 +1,4 @@
-package main_for_each_loop
+package main
 
 import "fmt"
 
@@ -8,7 +8,7 @@ func main() {
 		fmt.Println("index : ", i)
 	}
 
-	for index, item := range arr {
-		fmt.Printf("index : %d, value : %d.\n")
+	for index, value := range arr {
+		fmt.Printf("index : %d, value : %d.\n", index, value)
 	}
 }
