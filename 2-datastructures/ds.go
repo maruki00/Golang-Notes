@@ -19,4 +19,9 @@ func main() {
 	letters = append(letters[:1], letters[2:]...)
 
 	fmt.Println(x, twoD, letters, letters2)
+
+	hashMap := make(map[int]int)
+	hashMap[1] = 120
+	hashMap[45] = 324
+
 }
