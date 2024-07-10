@@ -7,7 +7,7 @@ func main() {
 	fmt.Scan(&user, &pwd)
 	if user == "user1" && pwd == "pwd1" {
 		fmt.Println("Authorized!")
-		return
+	} else {
+		fmt.Println("Invalid Data!")
 	}
-	fmt.Println("Invalid Data!")
 }
