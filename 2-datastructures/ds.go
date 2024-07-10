@@ -18,10 +18,11 @@ func main() {
 	//Delete Letter
 	letters = append(letters[:1], letters[2:]...)
 
-	fmt.Println(x, twoD, letters, letters2)
-
 	hashMap := make(map[int]int)
 	hashMap[1] = 120
 	hashMap[45] = 324
+	delete(hashMap, 1)
+
+	fmt.Println(x, twoD, letters, letters2, hashMap)
 
 }
