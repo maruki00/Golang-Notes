@@ -7,7 +7,12 @@ type DefaultType interface {
 }
 
 func GetDefault[V DefaultType](items []V) V {
-	return 10
+	var result V
+	for _, x := range items {
+		result += x
+	}
+
+	return result
 }
 
 func main() {
